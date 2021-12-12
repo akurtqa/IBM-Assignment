@@ -42,6 +42,7 @@ public without sharing class UserTriggerHandler {
                 cont.MailingState      = userMap.get(contactIdWithUserId.get(cont.Id)).State;
                 cont.MailingPostalCode = userMap.get(contactIdWithUserId.get(cont.Id)).PostalCode;
                 cont.MailingCountry    = userMap.get(contactIdWithUserId.get(cont.Id)).Country;
+                //cont.Country__c      = userMap.get(contactIdWithUserId.get(cont.Id)).Country__c;
             }
             update lstContact;
         }

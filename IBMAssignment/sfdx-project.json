@@ -5,7 +5,8 @@
       "default": true
     }
   ],
+  "name": "IBMAssignment",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "49.0"
+  "sourceApiVersion": "52.0"
 }
